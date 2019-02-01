@@ -34,7 +34,7 @@ formatter.match({
   "location": "TestCucumber.user_is_on_page()"
 });
 formatter.result({
-  "duration": 418289914,
+  "duration": 416818613,
   "status": "passed"
 });
 formatter.match({});
