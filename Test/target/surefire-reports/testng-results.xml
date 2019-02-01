@@ -5,19 +5,19 @@
       <![CDATA[First Cucumber Test]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="1201" started-at="2019-01-25T11:25:44Z" finished-at="2019-01-25T11:25:46Z">
+  <suite name="Suite" duration-ms="2568" started-at="2019-02-01T05:50:58Z" finished-at="2019-02-01T05:51:01Z">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestRunner@327471b5]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Learning" duration-ms="1201" started-at="2019-01-25T11:25:44Z" finished-at="2019-01-25T11:25:46Z">
+    <test name="Learning" duration-ms="2568" started-at="2019-02-01T05:50:58Z" finished-at="2019-02-01T05:51:01Z">
       <class name="testrunner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestRunner@327471b5]" name="setUpClass" is-config="true" duration-ms="597" started-at="2019-01-25T11:25:44Z" finished-at="2019-01-25T11:25:45Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestRunner@327471b5]" name="setUpClass" is-config="true" duration-ms="1548" started-at="2019-02-01T11:20:58Z" finished-at="2019-02-01T11:21:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestRunner@327471b5]" name="feature" duration-ms="385" started-at="2019-01-25T11:25:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-25T11:25:46Z">
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestRunner@327471b5]" name="feature" duration-ms="579" started-at="2019-02-01T11:21:00Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-02-01T11:21:01Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@327471b5]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2019-01-25T11:25:46Z" finished-at="2019-01-25T11:25:46Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@327471b5]" name="tearDownClass" is-config="true" duration-ms="65" started-at="2019-02-01T11:21:01Z" finished-at="2019-02-01T11:21:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
