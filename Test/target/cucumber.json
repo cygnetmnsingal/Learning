@@ -1,0 +1,49 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "open page to test maven tutorial",
+        "description": "",
+        "id": "maven-cucumber;open-page-to-test-maven-tutorial",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 316648817,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on page",
+            "match": {
+              "location": "TestCucumber.user_is_on_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Get the title",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Maven Cucumber",
+    "description": "",
+    "id": "maven-cucumber",
+    "keyword": "Feature",
+    "uri": "01_test1.feature"
+  }
+]

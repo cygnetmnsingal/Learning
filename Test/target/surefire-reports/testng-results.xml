@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[First Cucumber Test]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="1201" started-at="2019-01-25T11:25:44Z" finished-at="2019-01-25T11:25:46Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestRunner@327471b5]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Learning" duration-ms="1201" started-at="2019-01-25T11:25:44Z" finished-at="2019-01-25T11:25:46Z">
+      <class name="testrunner.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:testrunner.TestRunner@327471b5]" name="setUpClass" is-config="true" duration-ms="597" started-at="2019-01-25T11:25:44Z" finished-at="2019-01-25T11:25:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testrunner.TestRunner@327471b5]" name="feature" duration-ms="385" started-at="2019-01-25T11:25:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-01-25T11:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Maven Cucumber]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[First Cucumber Test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:testrunner.TestRunner@327471b5]" name="tearDownClass" is-config="true" duration-ms="47" started-at="2019-01-25T11:25:46Z" finished-at="2019-01-25T11:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.TestRunner -->
+    </test> <!-- Learning -->
+  </suite> <!-- Suite -->
+</testng-results>
