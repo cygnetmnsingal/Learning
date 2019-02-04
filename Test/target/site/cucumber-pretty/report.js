@@ -34,11 +34,14 @@ formatter.match({
   "location": "TestCucumber.user_is_on_page()"
 });
 formatter.result({
-  "duration": 416818613,
+  "duration": 13835099801,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "location": "TestCucumber.get_the_title()"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 1135262738,
+  "status": "passed"
 });
 });

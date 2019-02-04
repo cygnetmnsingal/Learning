@@ -7,7 +7,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 @RunWith(Cucumber.class)
 @CucumberOptions
 	(
-		features = "FeatureFiles", 
+		features = "src/test/resources/FeatureFiles", 
 		glue = {"stepdefinition"},
 		tags="@test",
 		format = { "json:target/cucumber.json",

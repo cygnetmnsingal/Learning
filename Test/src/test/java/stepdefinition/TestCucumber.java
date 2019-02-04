@@ -1,14 +1,18 @@
 package stepdefinition;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
 
 public class TestCucumber 
 {	
+	WebDriver driver = new ChromeDriver();
 	@BeforeTest
 	public void before(Scenario scenario)
 	{
@@ -18,7 +22,13 @@ public class TestCucumber
 	public void user_is_on_page()
 	{
 		Reporter.log("First Cucumber Test");
-		System.out.println("Test Done");	System.out.println("Test Done");	System.out.println("Test Done");
+		driver.get("https://www.google.com");
 	}
 
+	@Then("^Get the title$")
+	public void get_the_title() 
+	{
+		System.out.println("Title is : "+driver.getTitle());
+		driver.quit();
+	}
 }
