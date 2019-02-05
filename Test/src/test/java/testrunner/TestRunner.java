@@ -13,6 +13,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		format = { "json:target/cucumber.json",
 		"html:target/site/cucumber-pretty"},
 		monochrome= true
+		
 	)
 public class TestRunner extends AbstractTestNGCucumberTests {
 	

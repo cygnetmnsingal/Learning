@@ -16,7 +16,6 @@ public class Login extends Login_test
 	@Given("^user is on page of Hr Portal$")
 	public void user_is_on_page()
 	{
-	
 		openPage();
 	}
 	

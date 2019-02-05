@@ -5,6 +5,9 @@
 		<classes>			
 			<class 
 			name="testrunner.TestRunner" />
+
+				<class 
+			name="test.Hook" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->

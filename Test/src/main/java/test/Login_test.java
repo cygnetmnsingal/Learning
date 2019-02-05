@@ -22,6 +22,6 @@ public class Login_test
 		webTest.name.sendKeys(Username);
 		webTest.pass.sendKeys(Password);
 		webTest.Login.click();
-		driver.quit();
+		driver.close();
 	}
 }

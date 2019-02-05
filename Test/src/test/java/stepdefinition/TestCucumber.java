@@ -2,6 +2,7 @@ package stepdefinition;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
@@ -29,6 +30,25 @@ public class TestCucumber
 	public void get_the_title() 
 	{
 		System.out.println("Title is : "+driver.getTitle());
+		driver.quit();
+	}
+	
+	@Then("^Get the title and verify it$")
+	public void verify() 
+	{
+		String title = driver.getTitle();
+		
+		if(title.equals("googlee"))
+		{
+			System.out.println("Matches");
+		}
+		else
+		{
+			System.out.println("Not Matches");
+			
+			Assert.assertTrue(false,"Not");
+			
+		}
 		driver.quit();
 	}
 }
