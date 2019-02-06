@@ -1,10 +1,5 @@
 package stepdefinition;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.PageFactory;
-
-import com.google.inject.spi.Elements;
 
 import cucumber.api.java.en.Given;
 import test.Login_test;
