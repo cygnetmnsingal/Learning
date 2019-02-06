@@ -7,7 +7,7 @@
 			name="testrunner.TestRunner" />
 
 				<class 
-			name="test.Hook" />
+			name="pages.Hook" />
 		</classes>
 	</test>
 </suite> <!-- Suite -->

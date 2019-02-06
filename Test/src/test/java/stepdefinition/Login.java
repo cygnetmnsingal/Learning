@@ -2,7 +2,7 @@ package stepdefinition;
 
 
 import cucumber.api.java.en.Given;
-import test.Login_test;
+import pages.Login_test;
 
 public class Login extends Login_test
 {

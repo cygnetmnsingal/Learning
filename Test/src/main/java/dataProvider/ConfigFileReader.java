@@ -1,6 +1,9 @@
 package dataProvider;
 
 import java.util.Properties;
+
+import enums.DriverType;
+
 import java.io.*;
 
 public class ConfigFileReader 
@@ -33,4 +36,6 @@ public class ConfigFileReader
 			throw new RuntimeException("Configuration.properties not fount at "+filePath);
 		}
 	}
+	
+
 }
